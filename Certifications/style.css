@@ -1,27 +1,23 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eb8ddf;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 50px;
+    background-color: #f0f8ff; 
 }
 
 
-nav {
-    background-color: #710641;
+header {
+    background-color: #4682b4; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     text-align: center;
+    background-color: #4682b4;
 }
 
 nav ul li {
@@ -29,22 +25,37 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 15px 30px;
     text-decoration: none;
     font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 
 nav ul li a:hover {
-    background-color: #080000;
-    color: #fff;
-    transition: background-color 0.3s ease;
+    background-color: #87ceeb; 
+    color: #333; 
+    border-radius: 5px; 
+}
+
+nav ul li:last-child a {
+    background-color: #87ceeb;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul li:last-child a:hover {
+    background-color: #4682b4;
+    color: white;
 }
 
 
 main {
     padding: 20px;
+    color: #333;
+    background-color: #f7f9fc; 
 }
+

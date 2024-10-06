@@ -32,4 +32,9 @@ nav {
     color: rgb(0, 0, 0);
     padding: 10px;
  }
+ nav ul li a:hover {
+    background-color: #080000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
 
